@@ -1,1 +1,23 @@
+189  ssh -T git@github.com
+  190  ssh-keygen -t ed25519 -C "savemyqueer@gmail.com"
+  191  cd .ssh
+  192  ls
+  193  cat id_ed25519.pub
+  194  ssh -T git@github.com
+  195  cd
+  196  git clone git@github.com:Hello-world-boo/MyFirstSSH.git
+  197  cd MyFirstSSH
+  198  ls
+  199  touch myssh.txt
+  200  ls
+  201  code .
+  202  git status
+  203  git add .
+  204  git status
+  205  git commit -m "Created myssh.txt and added name & surname"
+  206  git remote -v
+  207  git push origin main
+  208  git pull origin main
+  209  ls
+  210  history
 
